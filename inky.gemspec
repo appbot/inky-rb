@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files    = Dir['spec/**/*']
 
-  s.add_dependency "foundation_emails", "~> 2"
   s.add_dependency "nokogiri"
   s.add_development_dependency "bundler", "~> 1.6"
   s.add_development_dependency "rake"
